@@ -1,0 +1,40 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Smoke Tests for Login Register App,,,,2023-09-10 01:33:19,2023-09-10 01:33:55,36.712s,PASSED
+,,,,,,,
+Test Cases/User successfully register and login,,,,2023-09-10 01:33:19,2023-09-10 01:33:42,23.067s,PASSED
+"appPath = relativeToAbsolutePath(G_AppPath, getProjectDir())",,Get full directory's path of android application,,2023-09-10 01:33:20,2023-09-10 01:33:20,0.187s,PASSED
+"startApplication(appPath, true)",,,,2023-09-10 01:33:20,2023-09-10 01:33:32,12.027s,PASSED
+"verifyElementExist(findTestObject(""Object Repository/Application/App Login/android.widget.TextView - Login  Registration Example""), 0)",,,,2023-09-10 01:33:32,2023-09-10 01:33:33,0.838s,PASSED
+"tap(findTestObject(""Object Repository/Application/App Login/android.widget.Button - REGISTER""), 0)",,,,2023-09-10 01:33:33,2023-09-10 01:33:33,0.346s,PASSED
+"verifyElementExist(findTestObject(""Object Repository/Application/App Login/android.widget.TextView - PLEASE REGISTER""), 0)",,,,2023-09-10 01:33:33,2023-09-10 01:33:34,0.754s,PASSED
+"sendKeys(findTestObject(""Object Repository/Application/App Login/android.widget.EditText (2)""), ""eta"")",,,,2023-09-10 01:33:34,2023-09-10 01:33:34,0.226s,PASSED
+"sendKeys(findTestObject(""Object Repository/Application/App Login/android.widget.EditText (3)""), ""123456"")",,,,2023-09-10 01:33:34,2023-09-10 01:33:35,0.604s,PASSED
+"sendKeys(findTestObject(""Object Repository/Application/App Login/android.widget.EditText (4)""), ""123456"")",,,,2023-09-10 01:33:35,2023-09-10 01:33:35,0.599s,PASSED
+"tap(findTestObject(""Object Repository/Application/App Login/android.widget.Button - CREATE""), 0)",,,,2023-09-10 01:33:35,2023-09-10 01:33:36,0.615s,PASSED
+"tap(findTestObject(""Object Repository/Application/App Login/android.widget.Button - CREATE""), 0)",,,,2023-09-10 01:33:36,2023-09-10 01:33:37,0.624s,PASSED
+driver = getDriver(),,,,2023-09-10 01:33:37,2023-09-10 01:33:37,0.000s,PASSED
+"toast = driver.findElementByXPath(""//android.widget.Toast[@text=""Account Successfully Created ""]"")",,,,2023-09-10 01:33:37,2023-09-10 01:33:37,0.531s,PASSED
+if (toast == null),,,,2023-09-10 01:33:37,2023-09-10 01:33:37,0.001s,PASSED
+pressBack(),,,,2023-09-10 01:33:37,2023-09-10 01:33:38,0.712s,PASSED
+"sendKeys(findTestObject(""Object Repository/Application/App Login/android.widget.EditText (5)""), ""eta"")",,,,2023-09-10 01:33:38,2023-09-10 01:33:38,0.634s,PASSED
+"sendKeys(findTestObject(""Object Repository/Application/App Login/android.widget.EditText (6)""), ""123456"")",,,,2023-09-10 01:33:38,2023-09-10 01:33:39,0.590s,PASSED
+"tap(findTestObject(""Object Repository/Application/App Login/android.widget.Button - LOGIN (1)""), 0)",,,,2023-09-10 01:33:39,2023-09-10 01:33:40,1.103s,PASSED
+"tap(findTestObject(""Application/App Login/android.widget.Button - LOGIN (1)""), 0)",,,,2023-09-10 01:33:40,2023-09-10 01:33:41,0.632s,PASSED
+"getText(findTestObject(""Object Repository/Application/App Login/android.widget.TextView - You have sucessfully logged in )""), 0)",,,,2023-09-10 01:33:41,2023-09-10 01:33:41,0.615s,PASSED
+"getText(findTestObject(""Object Repository/Application/App Login/android.widget.TextView - YAAY""), 0)",,,,2023-09-10 01:33:41,2023-09-10 01:33:41,0.133s,PASSED
+closeApplication(),,,,2023-09-10 01:33:41,2023-09-10 01:33:42,0.757s,PASSED
+,,,,,,,
+Test Cases/User failed to login,,,,2023-09-10 01:33:42,2023-09-10 01:33:55,13.186s,PASSED
+"appPath = relativeToAbsolutePath(G_AppPath, getProjectDir())",,Get full directory's path of android application,,2023-09-10 01:33:43,2023-09-10 01:33:43,0.000s,PASSED
+"startApplication(appPath, true)",,,,2023-09-10 01:33:43,2023-09-10 01:33:51,8.640s,PASSED
+"verifyElementVisible(findTestObject(""Application/App Login/android.widget.EditText""), 0)",,,,2023-09-10 01:33:51,2023-09-10 01:33:52,0.314s,PASSED
+"verifyElementVisible(findTestObject(""Application/App Login/android.widget.EditText (1)""), 0)",,,,2023-09-10 01:33:52,2023-09-10 01:33:52,0.195s,PASSED
+"verifyElementVisible(findTestObject(""Application/App Login/android.widget.Button - LOGIN""), 0)",,,,2023-09-10 01:33:52,2023-09-10 01:33:52,0.163s,PASSED
+"sendKeys(findTestObject(""Object Repository/Application/App Login/android.widget.EditText""), ""eta"")",,,,2023-09-10 01:33:52,2023-09-10 01:33:52,0.152s,PASSED
+"sendKeys(findTestObject(""Object Repository/Application/App Login/android.widget.EditText (1)""), ""123456"")",,,,2023-09-10 01:33:52,2023-09-10 01:33:53,0.611s,PASSED
+"tap(findTestObject(""Application/App Login/android.widget.Button - LOGIN""), 3, STOP_ON_FAILURE)",,,,2023-09-10 01:33:53,2023-09-10 01:33:53,0.712s,PASSED
+"tap(findTestObject(""Application/App Login/android.widget.Button - LOGIN""), 3, STOP_ON_FAILURE)",,,,2023-09-10 01:33:53,2023-09-10 01:33:54,0.694s,PASSED
+driver = getDriver(),,,,2023-09-10 01:33:54,2023-09-10 01:33:54,0.004s,PASSED
+"toast = driver.findElementByXPath(""//android.widget.Toast[@text=""User Name or Password does not match""]"")",,,,2023-09-10 01:33:54,2023-09-10 01:33:55,0.574s,PASSED
+if (toast == null),,,,2023-09-10 01:33:55,2023-09-10 01:33:55,0.001s,PASSED
+closeApplication(),,,,2023-09-10 01:33:55,2023-09-10 01:33:55,0.770s,PASSED

@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Smoke Tests for Login Register App" time="36.712" tests="2" failures="0" errors="0">
+   <testsuite name="Smoke Tests for Login Register App" tests="2" failures="0" errors="0" time="36.712" skipped="0" timestamp="2023-09-10 01:33:19" hostname="margaretta - localhost" id="Test Suites/Smoke Tests for Login Register App">
+      <properties>
+         <property name="deviceName" value="emulator-5554 (sdk_gphone64_arm64 - Android 12)"/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/Users/margaretta/Katalon Studio/Mobile Automation Test/Reports/20230910_013309/Smoke Tests for Login Register App/20230910_013309"/>
+         <property name="logFiles" value="/Users/margaretta/Katalon Studio/Mobile Automation Test/Reports/20230910_013309/Smoke Tests for Login Register App/20230910_013309/execution0.log, /Users/margaretta/Katalon Studio/Mobile Automation Test/Reports/20230910_013309/Smoke Tests for Login Register App/20230910_013309/appium.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="margaretta - localhost"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="appiumServerStatus" value="{&quot;value&quot;:{&quot;build&quot;:{&quot;version&quot;:&quot;1.19.1&quot;}},&quot;sessionId&quot;:null,&quot;status&quot;:0}"/>
+         <property name="katalonVersion" value="8.6.8.208"/>
+         <property name="deviceOS" value="Android"/>
+         <property name="appiumVersion" value="1.19.1"/>
+         <property name="deviceModel" value="sdk_gphone64_arm64"/>
+         <property name="hostAddress" value="127.0.0.1"/>
+         <property name="deviceManufacturer" value="Google"/>
+         <property name="deviceId" value="emulator-5554"/>
+         <property name="deviceName" value="emulator-5554 (sdk_gphone64_arm64 - Android 12)"/>
+         <property name="deviceOSVersion" value="12"/>
+      </properties>
+      <testcase name="Test Cases/User successfully register and login" time="23.067" classname="Test Cases/User successfully register and login" status="PASSED">
+         <system-out><![CDATA[2023-09-10 01:33:19 - [TEST_CASE][PASSED] - Test Cases/User successfully register and login: Test Cases/User successfully register and login
+
+2023-09-10 01:33:20 - [TEST_STEP][PASSED] - appPath = relativeToAbsolutePath(G_AppPath, getProjectDir()): null
+
+2023-09-10 01:33:20 - [TEST_STEP][PASSED] - startApplication(appPath, true): Started app at: '/Users/margaretta/Katalon Studio/Mobile Automation Test/androidapp/loginregistersampleapp.apk'
+
+2023-09-10 01:33:20 - [MESSAGE][INFO] - User set preference: ['deviceId', '']
+
+2023-09-10 01:33:20 - [MESSAGE][INFO] - Detected NodeJS location: "/usr/local/bin/node"
+
+2023-09-10 01:33:21 - [MESSAGE][INFO] - Appium server started on port 52,029
+
+2023-09-10 01:33:32 - [MESSAGE][PASSED] - Started app at: '/Users/margaretta/Katalon Studio/Mobile Automation Test/androidapp/loginregistersampleapp.apk'
+
+2023-09-10 01:33:32 - [TEST_STEP][PASSED] - verifyElementExist(findTestObject("Object Repository/Application/App Login/android.widget.TextView - Login  Registration Example"), 0): Element 'Object Repository/Application/App Login/android.widget.TextView - Login  Registration Example' is exist
+
+2023-09-10 01:33:32 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-09-10 01:33:33 - [MESSAGE][PASSED] - Element 'Object Repository/Application/App Login/android.widget.TextView - Login  Registration Example' is exist
+
+2023-09-10 01:33:33 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Application/App Login/android.widget.Button - REGISTER"), 0): Tapped on element 'Object Repository/Application/App Login/android.widget.Button - REGISTER'
+
+2023-09-10 01:33:33 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-09-10 01:33:33 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Application/App Login/android.widget.Button - REGISTER'
+
+2023-09-10 01:33:33 - [TEST_STEP][PASSED] - verifyElementExist(findTestObject("Object Repository/Application/App Login/android.widget.TextView - PLEASE REGISTER"), 0): Element 'Object Repository/Application/App Login/android.widget.TextView - PLEASE REGISTER' is exist
+
+2023-09-10 01:33:33 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-09-10 01:33:34 - [MESSAGE][PASSED] - Element 'Object Repository/Application/App Login/android.widget.TextView - PLEASE REGISTER' is exist
+
+2023-09-10 01:33:34 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/Application/App Login/android.widget.EditText (2)"), "eta"): Send keys 'eta' on test object 'Object Repository/Application/App Login/android.widget.EditText (2)' successfully.
+
+2023-09-10 01:33:34 - [MESSAGE][PASSED] - Send keys 'eta' on test object 'Object Repository/Application/App Login/android.widget.EditText (2)' successfully.
+
+2023-09-10 01:33:34 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/Application/App Login/android.widget.EditText (3)"), "123456"): Send keys '123456' on test object 'Object Repository/Application/App Login/android.widget.EditText (3)' successfully.
+
+2023-09-10 01:33:35 - [MESSAGE][PASSED] - Send keys '123456' on test object 'Object Repository/Application/App Login/android.widget.EditText (3)' successfully.
+
+2023-09-10 01:33:35 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/Application/App Login/android.widget.EditText (4)"), "123456"): Send keys '123456' on test object 'Object Repository/Application/App Login/android.widget.EditText (4)' successfully.
+
+2023-09-10 01:33:35 - [MESSAGE][PASSED] - Send keys '123456' on test object 'Object Repository/Application/App Login/android.widget.EditText (4)' successfully.
+
+2023-09-10 01:33:35 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Application/App Login/android.widget.Button - CREATE"), 0): Tapped on element 'Object Repository/Application/App Login/android.widget.Button - CREATE'
+
+2023-09-10 01:33:35 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-09-10 01:33:36 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Application/App Login/android.widget.Button - CREATE'
+
+2023-09-10 01:33:36 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Application/App Login/android.widget.Button - CREATE"), 0): Tapped on element 'Object Repository/Application/App Login/android.widget.Button - CREATE'
+
+2023-09-10 01:33:36 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-09-10 01:33:37 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Application/App Login/android.widget.Button - CREATE'
+
+2023-09-10 01:33:37 - [TEST_STEP][PASSED] - driver = getDriver(): null
+
+2023-09-10 01:33:37 - [TEST_STEP][PASSED] - toast = driver.findElementByXPath("//android.widget.Toast[@text="Account Successfully Created "]"): null
+
+2023-09-10 01:33:37 - [TEST_STEP][PASSED] - if (toast == null): null
+
+2023-09-10 01:33:37 - [TEST_STEP][PASSED] - pressBack(): Press back button successfully
+
+2023-09-10 01:33:38 - [MESSAGE][PASSED] - Press back button successfully
+
+2023-09-10 01:33:38 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/Application/App Login/android.widget.EditText (5)"), "eta"): Send keys 'eta' on test object 'Object Repository/Application/App Login/android.widget.EditText (5)' successfully.
+
+2023-09-10 01:33:38 - [MESSAGE][PASSED] - Send keys 'eta' on test object 'Object Repository/Application/App Login/android.widget.EditText (5)' successfully.
+
+2023-09-10 01:33:38 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/Application/App Login/android.widget.EditText (6)"), "123456"): Send keys '123456' on test object 'Object Repository/Application/App Login/android.widget.EditText (6)' successfully.
+
+2023-09-10 01:33:39 - [MESSAGE][PASSED] - Send keys '123456' on test object 'Object Repository/Application/App Login/android.widget.EditText (6)' successfully.
+
+2023-09-10 01:33:39 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Application/App Login/android.widget.Button - LOGIN (1)"), 0): Tapped on element 'Object Repository/Application/App Login/android.widget.Button - LOGIN (1)'
+
+2023-09-10 01:33:39 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-09-10 01:33:40 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Application/App Login/android.widget.Button - LOGIN (1)'
+
+2023-09-10 01:33:40 - [TEST_STEP][PASSED] - tap(findTestObject("Application/App Login/android.widget.Button - LOGIN (1)"), 0): Tapped on element 'Object Repository/Application/App Login/android.widget.Button - LOGIN (1)'
+
+2023-09-10 01:33:40 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-09-10 01:33:41 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Application/App Login/android.widget.Button - LOGIN (1)'
+
+2023-09-10 01:33:41 - [TEST_STEP][PASSED] - getText(findTestObject("Object Repository/Application/App Login/android.widget.TextView - You have sucessfully logged in )"), 0): Text of element 'Object Repository/Application/App Login/android.widget.TextView - You have sucessfully logged in )' is: 'You have sucessfully logged in :)'
+
+2023-09-10 01:33:41 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-09-10 01:33:41 - [MESSAGE][PASSED] - Text of element 'Object Repository/Application/App Login/android.widget.TextView - You have sucessfully logged in )' is: 'You have sucessfully logged in :)'
+
+2023-09-10 01:33:41 - [TEST_STEP][PASSED] - getText(findTestObject("Object Repository/Application/App Login/android.widget.TextView - YAAY"), 0): Text of element 'Object Repository/Application/App Login/android.widget.TextView - YAAY' is: 'YAAY !!'
+
+2023-09-10 01:33:41 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-09-10 01:33:41 - [MESSAGE][PASSED] - Text of element 'Object Repository/Application/App Login/android.widget.TextView - YAAY' is: 'YAAY !!'
+
+2023-09-10 01:33:41 - [TEST_STEP][PASSED] - closeApplication(): Close app successfully
+
+2023-09-10 01:33:42 - [MESSAGE][PASSED] - Close app successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/User failed to login" time="13.186" classname="Test Cases/User failed to login" status="PASSED">
+         <system-out><![CDATA[2023-09-10 01:33:42 - [TEST_CASE][PASSED] - Test Cases/User failed to login: Test Cases/User failed to login
+
+2023-09-10 01:33:43 - [TEST_STEP][PASSED] - appPath = relativeToAbsolutePath(G_AppPath, getProjectDir()): null
+
+2023-09-10 01:33:43 - [TEST_STEP][PASSED] - startApplication(appPath, true): Started app at: '/Users/margaretta/Katalon Studio/Mobile Automation Test/androidapp/loginregistersampleapp.apk'
+
+2023-09-10 01:33:43 - [MESSAGE][INFO] - User set preference: ['deviceId', '']
+
+2023-09-10 01:33:43 - [MESSAGE][INFO] - Detected NodeJS location: "/usr/local/bin/node"
+
+2023-09-10 01:33:44 - [MESSAGE][INFO] - Appium server started on port 52,194
+
+2023-09-10 01:33:51 - [MESSAGE][PASSED] - Started app at: '/Users/margaretta/Katalon Studio/Mobile Automation Test/androidapp/loginregistersampleapp.apk'
+
+2023-09-10 01:33:51 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Application/App Login/android.widget.EditText"), 0): Element 'Object Repository/Application/App Login/android.widget.EditText' is visible
+
+2023-09-10 01:33:51 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-09-10 01:33:52 - [MESSAGE][PASSED] - Element 'Object Repository/Application/App Login/android.widget.EditText' is visible
+
+2023-09-10 01:33:52 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Application/App Login/android.widget.EditText (1)"), 0): Element 'Object Repository/Application/App Login/android.widget.EditText (1)' is visible
+
+2023-09-10 01:33:52 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-09-10 01:33:52 - [MESSAGE][PASSED] - Element 'Object Repository/Application/App Login/android.widget.EditText (1)' is visible
+
+2023-09-10 01:33:52 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Application/App Login/android.widget.Button - LOGIN"), 0): Element 'Object Repository/Application/App Login/android.widget.Button - LOGIN' is visible
+
+2023-09-10 01:33:52 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-09-10 01:33:52 - [MESSAGE][PASSED] - Element 'Object Repository/Application/App Login/android.widget.Button - LOGIN' is visible
+
+2023-09-10 01:33:52 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/Application/App Login/android.widget.EditText"), "eta"): Send keys 'eta' on test object 'Object Repository/Application/App Login/android.widget.EditText' successfully.
+
+2023-09-10 01:33:52 - [MESSAGE][PASSED] - Send keys 'eta' on test object 'Object Repository/Application/App Login/android.widget.EditText' successfully.
+
+2023-09-10 01:33:52 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/Application/App Login/android.widget.EditText (1)"), "123456"): Send keys '123456' on test object 'Object Repository/Application/App Login/android.widget.EditText (1)' successfully.
+
+2023-09-10 01:33:53 - [MESSAGE][PASSED] - Send keys '123456' on test object 'Object Repository/Application/App Login/android.widget.EditText (1)' successfully.
+
+2023-09-10 01:33:53 - [TEST_STEP][PASSED] - tap(findTestObject("Application/App Login/android.widget.Button - LOGIN"), 3, STOP_ON_FAILURE): Tapped on element 'Object Repository/Application/App Login/android.widget.Button - LOGIN'
+
+2023-09-10 01:33:53 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Application/App Login/android.widget.Button - LOGIN'
+
+2023-09-10 01:33:53 - [TEST_STEP][PASSED] - tap(findTestObject("Application/App Login/android.widget.Button - LOGIN"), 3, STOP_ON_FAILURE): Tapped on element 'Object Repository/Application/App Login/android.widget.Button - LOGIN'
+
+2023-09-10 01:33:54 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Application/App Login/android.widget.Button - LOGIN'
+
+2023-09-10 01:33:54 - [TEST_STEP][PASSED] - driver = getDriver(): null
+
+2023-09-10 01:33:54 - [TEST_STEP][PASSED] - toast = driver.findElementByXPath("//android.widget.Toast[@text="User Name or Password does not match"]"): null
+
+2023-09-10 01:33:55 - [TEST_STEP][PASSED] - if (toast == null): null
+
+2023-09-10 01:33:55 - [TEST_STEP][PASSED] - closeApplication(): Close app successfully
+
+2023-09-10 01:33:55 - [MESSAGE][PASSED] - Close app successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2023-09-10 01:33:19 - [TEST_SUITE][PASSED] - Smoke Tests for Login Register App: Test Cases/User failed to login]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>
